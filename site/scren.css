@@ -1,0 +1,133 @@
+
+
+body{
+	background:url(b.jpg)  ;
+	font:13px Trebuchet MS, Arial, Helvetica, Sans-Serif;
+	margin:0%;
+	}
+
+h1{
+	font-size:200%;
+	font-weight:normal;
+	}
+h2, h3, h4, h5, h6{
+	font-weight:normal;
+	margin:1em 0;
+	}
+h2{
+	font-size:160%;
+	}
+h3{
+	font-size:140%;
+	}
+h4{
+	font-size:120%;
+	}
+
+a{
+	text-decoration:none;
+	color:#f30;
+	}
+a:hover{
+	color:#999;
+	}
+table, input, textarea, select, li{
+	font:100% Trebuchet MS, Arial, Helvetica, Sans-Serif;
+	line-height:160%;
+	color:#333;
+	}
+p, blockquote, ul, ol, form{
+	margin:1em 0;
+	}
+blockquote{
+	}
+img{
+	border:none;
+	}
+hr{
+	display:none;
+	}
+table{
+	margin:1em 0;
+	width:100%;
+	border-collapse:collapse;
+	}
+th, td{
+	padding:2px 5px;
+	}
+th{
+	text-align:left;
+	}
+li{
+	display:list-item;
+	}
+
+#container{
+	margin:0 auto;
+	background:#fff;
+	width:770px;
+	min-width: 750px;
+	padding:50px 300px;
+	text-align:left;
+	}
+
+/* form 2 */
+
+	#form2{
+		margin:1em 0;
+		color:#fff;
+		width:700px; /* customize width, this form have fluid layout */
+		}
+	#form2 h3{
+		margin:0;
+		background-color: #00796B;
+		color:#fff;
+		font-size:20px;
+		border:1px solid #00796B;
+		border-bottom:none;
+		}
+	#form2 h3 span{
+		display:block;
+		padding:10px 20px;
+		background:url(c2.gif) no-repeat 98% 50%;
+		}
+	#form2 fieldset{
+		margin:0;
+		padding:0;
+		border:none;
+		border-top:3px solid #000;
+		background:#000 url(form_top.gif) repeat-x;
+		padding-bottom:1em;
+		}
+	#form2 legend{display:none;}
+	#form2 p{margin:.5em 20px;}
+	#form2 label{display:block;
+	font-size:17px;
+	}
+	#form2 input, #form2 textarea{
+		width:600px;
+		border:1px solid #111;
+		background:#282828 url(form_input.gif) repeat-x;
+		padding:5px 3px;
+		color:#fff;
+		}
+	#form2 textarea{
+		height:125px;
+		overflow:auto;
+		}
+	#form2 p.submit{
+		text-align:right;
+		}
+	#form2 button{
+		padding:0 20px;
+		height:32px;
+		line-height:32px;
+		border:1px solid #00796B;
+		background-color: #00796B;
+		color:#fff;
+		cursor:pointer;
+		text-align:center;
+		width:150px;
+		}
+
+/* // form 2 */

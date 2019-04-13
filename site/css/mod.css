@@ -1,0 +1,16 @@
+.form form{
+  margin-left: 30%;
+
+}
+.form form input{
+  border-radius: 50px;
+margin-top: 12px;
+height: 23px;
+right: 18px;
+outline: none;
+width: 200px;
+}
+.form form input:hover{
+  width: 240px;
+
+}
